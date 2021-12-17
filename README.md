@@ -2,7 +2,7 @@
 
 ## Description
 
-A CLI application using Node.Js, Inquirer and MySql. This application is a simple way to keep track of employees, departments, and roles. After starting the application, follow the prompts achieve throught hte command line
+A CLI application using Node.Js, Inquirer and MySql. This application is a simple way to keep track of employees, departments, and roles. After starting the application, follow the prompts in the command line to track your employees
 
 ## Table of Contents
 * [Description](#description)
