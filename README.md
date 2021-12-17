@@ -30,7 +30,7 @@ A CLI application using Node.Js, Inquirer and MySql. This application is a simpl
 
 ## Repository
 
-[Employee Tracker Repo]()
+[Employee Tracker Repo](https://github.com/JonkHunkle/employeeTracker)
 
 
 ## Contact
