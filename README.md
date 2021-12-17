@@ -1,0 +1,38 @@
+# Employee Tracker
+
+## Description
+
+A CLI application using Node.Js, Inquirer and MySql. This application is a simple way to keep track of employees, departments, and roles. After starting the application, follow the prompts achieve throught hte command line
+
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contact](#contact)
+* [Demonstration](#demonstration)
+* [Repository](#repository)
+
+## Installation
+
+- This application requires node.js.
+- Run ```npm i```.
+- Update the .env.EXAMPLE file, changing variables relevant to your information and remove the ".EXAMPLE" ending on the file name when ready to use. 
+- Run the Schema file as well as the Seeds file in Mysql Workbench
+
+## Usage
+
+- Run ```node server.js```
+- All prompts will show in the terminal and need to be answered there. 
+
+## Demonstration
+
+[Live Deployment Demenstration]()
+
+## Repository
+
+[Employee Tracker Repo]()
+
+
+## Contact
+
+*Find me on GitHub* [@JonkHunkle](https://github.com/JonkHunkle)
