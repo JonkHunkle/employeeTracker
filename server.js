@@ -1,7 +1,7 @@
 const consoleTable = require('console.table')
 const inquirer = require('inquirer')
 const showBanner = require('node-banner');
-const { DELETE } = require('sequelize/dist/lib/query-types');
+
 const db = require('./config/connection');
 const { allDepartments, allDepartmentsDisplay, allRoles, allRolesDisplay, allEmployees, allEmployeesDisplay, insertDepartment, insertRole, insertEmployee } = require('./db/dbFunc')
 
@@ -280,7 +280,7 @@ function deleteDepartment() {
                 choices: allDept
             }
         ]).then((answers) => {
-            console.log('department id', answers.depatmentName)
+
             db.query(`DELETE FROM department WHERE id=${answers.departmentName}`)
             console.log('Department Deleted!')
             questions()
@@ -290,23 +290,23 @@ function deleteDepartment() {
 
 function deleteRole() {
     db.query(allRoles, function (err, results) {
-        var rolesArray = []
+        var roleArray = []
         for (let i = 0; i < results.length; i++) {
             var obj = {
-                name: results[i].name,
+                name: results[i].title,
                 value: results[i].id
             }
-            rolesArray.push(obj)
+            roleArray.push(obj)
+
         }
         inquirer.prompt([
             {
                 name: 'roleName',
                 type: 'list',
                 message: 'Which role would you like to remove?',
-                choices: rolesArray
+                choices: roleArray
             }
         ]).then((answers) => {
-            console.log('role id', answers.roleName)
             db.query(`DELETE FROM role WHERE id=${answers.roleName}`)
             console.log('Role Deleted!')
             questions()
@@ -332,7 +332,7 @@ function deleteEmployee() {
                 choices: employees
             }
         ]).then((answers) => {
-            console.log('department id', answers.employeeName)
+
             db.query(`DELETE FROM employee WHERE id=${answers.employeeName}`)
             console.log('Employee Deleted!')
             questions()
