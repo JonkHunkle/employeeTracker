@@ -8,9 +8,9 @@ A CLI application using Node.Js, Inquirer and MySql. This application is a simpl
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contact](#contact)
 * [Demonstration](#demonstration)
 * [Repository](#repository)
+* [Contact](#contact)
 
 ## Installation
 
