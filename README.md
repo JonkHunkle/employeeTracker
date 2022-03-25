@@ -27,6 +27,8 @@ A CLI application using Node.Js, Inquirer and MySql. This application is a simpl
 ## Demonstration
 
 [Live Deployment Demenstration](https://drive.google.com/file/d/126jAW9THud4AC2m8pOLZcQnTuupVivoZ/view?usp=sharing)
+<br/>
+![tracker](https://i.imgur.com/1ksPTPA.png)
 
 ## Repository
 
