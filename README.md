@@ -1,8 +1,8 @@
 # Employee Tracker
 
 ## Description
-
-A CLI application using Node.Js, Inquirer and MySql. This application is a simple way to keep track of employees, departments, and roles. After starting the application, follow the prompts in the command line to track your employees
+As an employer, I need to keep track of various aspects (salary, department, name, etc...) of the employees of my growing business.
+This0 CLI application uses Node.Js, Inquirer and MySql. This application is a simple way to keep track of employees, departments, and roles. After starting the application, follow the prompts in the command line to track your employees
 
 ## Table of Contents
 * [Description](#description)
