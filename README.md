@@ -22,7 +22,8 @@ A CLI application using Node.Js, Inquirer and MySql. This application is a simpl
 ## Usage
 
 - Run ```node server.js```
-- All prompts will show in the terminal and need to be answered there. 
+- All prompts will show in the terminal.
+- Each prompt will present the user with aditional questions which allow for full CRUD operations on data in the back end
 
 ## Demonstration
 
